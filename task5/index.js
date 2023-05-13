@@ -11,3 +11,4 @@ app.use(express.json())
 app.use('/user', userRouter)
 
 app.listen(5050, () => console.log('server is up ...'))
+

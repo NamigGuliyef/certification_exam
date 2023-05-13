@@ -7,7 +7,7 @@ const randomFileWrite = (numArray) => {
         let randomChar = Math.floor((Math.random() * numArray.length))
         newFile += numArray[randomChar]
     }
-    writeFile(`${newFile}.txt`, '', 'utf-8', (err) => {
+    writeFile(`task3/${newFile}.txt`, '', 'utf-8', (err) => {
         if (err) {
             console.log(err)
         }
